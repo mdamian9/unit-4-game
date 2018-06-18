@@ -59,3 +59,5 @@ $(document).ready(function () {
     });
 
 });
+
+// Game works as expected in the demo
