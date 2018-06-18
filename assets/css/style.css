@@ -20,6 +20,19 @@ body {
     font-weight: bold;
 }
 
+.total-row {
+    text-align: left;
+    background: gray;
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
 #column-1 {
     text-align: center;
     background: gray;
@@ -32,11 +45,12 @@ body {
 }
 
 #column-2 {
-    text-align: center;
+    text-align: left;
     background: gray;
     float: left;
     width: 40%;
     margin-top: 10px;
+    padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -61,5 +75,6 @@ body {
 
 #coin-4 {
     float: left;
+    position: relative;
     margin-top: 10px;
 }
